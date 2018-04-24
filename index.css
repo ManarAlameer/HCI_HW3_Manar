@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Josefin+Slab);
+
+
+body{
+  color: #00;
+  margin: 0px;
+  min-width: 1400px;
+  font-family3 'Arial', sans-serif;
+  font-size: 21px;
+}
+
+header, main{
+  position: relative;
+}
+
+header{
+  z-index: 3; 
+}
+
+.body_bg{
+ background-image:url(Background.jpg);
+ background-size: cover;
+ width: 100%;
+ text-align: center !important;
+ background-repeat: no-repeat;
+}
+
+
+.footer {
+    height:1000px;
+    margin-top:400px;
+     margin-left: 100px;
+    background-color:#fff;
+}
+
+
+/* header on every page */
+header nav{
+  position: fixed;
+  background-color: #7c43d6;
+  /* opacity: .6; */
+  width: 100%;
+  color: white;
+}
+
+ul{
+  width: 800px;
+  margin: auto;
+  padding: 15px 0 15px 0;
+  /* background:  #fff; */
+  text-align: center;
+}
+
+header li{
+  display: inline-block; 
+  padding: 0 40px;
+  font-size: 17px;
+}
+
+
+
+header a, #header2 a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+header a:link{
+  color: #fff;
+}
+header a:visited{
+  color: #dbe6e5;
+}
+header a:hover{
+  color: #ebc4a8;
+}
+header a:active{
+  color: #117f73;
+}
+/*****************************************/
+
+div {
+  text-align: left;
+  z-index: -1;
+}
+
+/* large logo on homepage that scrolls with the teal area */
+
+#home img{
+  padding: 100px 0 0;
+}
+
+#home p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px; 
+    font-style: italic;
+    color: #fff;
+    font-display: swap;
+margin-left: : 990px;
+    margin-top:auto;
+    
+}
+.inline {
+        display: inline-block;
+
+    }
+
+
+ h4{
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  width: 700px;
+  margin: auto;
+  padding: -2px 0 0 0;
+  
+}
+
+ p2{
+  font-family: 'Raleway', sans-serif;
+    position: relative;
+     font-style: normal;
+     top:-90px;
+    left: 90px;
+     font-size: 26px; 
+    color: #000;
+    font-display: swap;
+
+    
+}
+p3{
+  font-family: 'Raleway', sans-serif;
+    position: relative;
+     font-style: normal;
+     top:-90px;
+    left: 830px;
+     font-size: 26px; 
+    color: #000;
+    font-display: swap;}
+
+.iconhome {
+padding: 0px 100px;
+}
+    .itext{
+      float: left;
+      width: 320px;
+      font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    color: #000;
+    text-align: center;
+    padding-left: : 20px;
+    }
+}
+#logo img{
+  padding: 10px 0 0;
+      height: 150px;
+        display: inline-block;
+
+}
+
+#logo2 img{
+      padding: 0px 0 0;
+    display: inline-block;
+      height: 150px;
+
+}
+
+/***************/
+
+.images {
+    display: inline;
+  /*  margin: 120px;*/
+    margin-left: 70
+    vertical-align:middle;
+    width:150px;
+}
+#content {
+    display: block;
+    /* position: relative; */
+    top: -20px;
+    left: 70px;
+    margin-top: 50px;
+    top: 300px;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}
