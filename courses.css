@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Josefin+Slab);
+
+
+body{
+	color: #fff;
+	margin: 0px;
+	min-width: 1400px;
+	font: sans-serif !important;
+}
+
+header nav{
+	position: fixed;
+	background-color: #7c43d6;
+	/* opacity: .6; */
+	width: 100%;
+	color: white;
+}
+
+ul{
+	width: 800px;
+	margin: auto;
+	padding: 15px 0 15px 0;
+	/* background:  #fff; */
+	text-align: center;
+}
+
+header li{
+	display: inline-block; 
+	padding: 0 40px;
+	font-size: 17px;
+}
+
+
+
+header a, #header2 a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+header a:link{
+  color: #fff;
+}
+header a:visited{
+  color: #dbe6e5;
+}
+header a:hover{
+  color: #ebc4a8;
+}
+header a:active{
+  color: #117f73;
+}
+
+
+
+#header2{
+	position: fixed;
+	height: 120px;
+	padding: 0px;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
+	min-width: 850px;
+}
+
+/*logo position*/
+#logo img{
+	padding: 70px 0 0 ; 
+      position: relative;
+	height: 65px;
+}
+
+
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	color: #117f73;
+	font-size: 48px;
+}
+
+/*change schedule position*/
+.layout2{
+	background-color: #fff;
+	padding: 10px 60px 100px 0px;
+	width: 1300px;
+	margin:auto;
+}	
+
+/* this is for the images on those content pages */
+
+.layout2 section {
+	display: inline-block;
+    /*change the position of ksu logo & my course title*/
+	padding: 90px 400px 0 120px;
+    
+	margin-bottom: -7px;	
+}
+
+#logo img{
+	padding: 70px 0 0 ; 
+      position: relative;
+    left: 610px;
+	height: 65px;
+}
+
+.images1 img{
+	width: 212px;
+}
+
+
+
+
+
+/*****************************************/
+
+/* this is for all other links */
+
+a:link{
+	color: #A2E2DB;
+	text-decoration: none;
+}
+a:visited{
+	color: #731585;
+}
+a:hover{
+	color: #A2E2DB;
+}
+a:active{
+	color: #FFF;
+}
+
+/*****************************************/
+
+
+
+	
+		/* Table Style! */
+		/* Put borders around the cells */
+		th, td {border: solid 1px #000;}
+		/* Collapse or 'merge' the borders into each other*/
+		table {border-collapse: collapse;font-family:  sans-serif;/* padding:  5px; */}
+
+		/* Color every other row (tr) light grey */
+		tr:nth-child(even) {
+			background: rgb(255, 255, 255);
+			color:  black;
+		}
+
+		/* Color green the text of currentlytaking rows */
+		tr.currentlytaking {
+			color:black;
+		}
+
+		/* Align and style the "For Credit" and "Listener" cells */
+		th, td.enrollheader {
+			background-color: #7c43d6;
+			text-align:center;
+			color:  #fff;
+			font-weight:bold;
+			padding: 10px;
+		}
+
